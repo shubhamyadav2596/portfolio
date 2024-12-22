@@ -1,4 +1,3 @@
-import React from 'react'
 import movie from '../assets/movie.png'
 import ecom from '../assets/ecom.png'
 import spotyfy from '../assets/spotify.png'
