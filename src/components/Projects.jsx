@@ -3,7 +3,7 @@ import ecom from '../assets/ecom.png'
 import spotyfy from '../assets/spotify.png'
 import youtube from '../assets/yt.png'
 import ecomMern from '../assets/ecom_mern.png'
-import netflix from '../assets/netflix.png'
+import netflix from '../assets/Netflix.png'
 import Cards from './Cards'
 
 
