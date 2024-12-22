@@ -7,6 +7,7 @@ import reactLogo from '../assets/React.png'
 import reduxLogo from '../assets/Redux.png'
 import tailwind from '../assets/Tailwind Css.png'
 import github from '../assets/Github.png'
+import Resume from '../assets/Resume.pdf'
 
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
                <h1 className='lg:text-6xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm Shubham <span className='text-red-500'>Yadav</span></h1>
                <p className='md:text-2xl text-xl mb-4'>Frontend Developer</p>
                <p className='mb-4'>I am a Frontend Developer with a passion for building responsive, user-friendly web interfaces. Proficient in HTML, CSS, JavaScript, and modern frameworks like React. Strong focus on UI/UX design, optimizing user experiences, and collaborating with cross-functional teams to deliver seamless web applications. Let's connect and create something amazing together</p>
-               <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href="https://drive.google.com/file/d/1fiTh5SJ4inGjl6ipqOc3BK8fKqHPNm7F/view?usp=sharing" download target='_blank'>Download CV</a></button>
+               <button className='bg-black text-white px-3 py-2 w-max rounded-md'><a href={Resume} download target='_blank'>Download CV</a></button>
             </div>
             <div className='md:w-1/2 relative flex justify-center items-end'>
                  <img src={hero} alt="" className='lg:h-[90vh] h-96' />
